@@ -1,8 +1,8 @@
 # banco-emprestimo
 Este repositório foi feito para treinar a habilidade de resolver um teste técnico de contratação.
 
-A proposta da aplicação que vamos desenvolver em conjunto é disponibilizar a uma pessoa as modalidades
-de empréstimo as quais ela tem acesso de acordo com algumas variáveis.
+### Proposta
+A proposta da aplicação que vamos desenvolver em conjunto é disponibilizar a uma pessoa as modalidades de empréstimo as quais ela tem acesso de acordo com algumas variáveis.
 Abaixo seguem as regras de negócio relacionadas a concessão de empréstimo de acordo com o perfil da pessoa:
 
 |       Salário           | Empréstimo pessoal |  Empréstimo c/ garantia  |   Consignado    |
@@ -17,4 +17,15 @@ Abaixo seguem as regras de negócio relacionadas a concessão de empréstimo de 
 
 ** Clientes que residem em SP;
 
-*** Clientes com menos de 30 anos que residem em SP
+*** Clientes com menos de 30 anos que residem em SP.
+
+### Entrada
+* name;
+* cpf;
+* age;
+* location;
+* income.
+
+### Saída
+* nome; 
+* loans {type; taxes}.
